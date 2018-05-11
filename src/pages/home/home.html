@@ -1,0 +1,79 @@
+<ion-header class="bg-header">
+  <ion-navbar>
+    <ion-title>Vistors Management Portal</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-card class="mt5p mb5p">
+  <ion-card-header>
+    Vistor profile.
+  </ion-card-header>
+
+  <ion-list>
+
+    <ion-item>
+      <ion-label floating>Full Name</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label floating>Mobile</ion-label>
+      <ion-input type="number"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>ID Card Type</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>ID Card No.</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+  <hr/>
+    <ion-card-header>
+      Employee Details
+    </ion-card-header>
+    <ion-item>
+      <ion-label floating>Emp. Email</ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Emp. Mob No.</ion-label>
+      <ion-input type="number"></ion-input>
+    </ion-item>
+    <ion-item class="reg-btnitem">
+      <button ion-button class="register-btn">Register</button>
+    </ion-item>
+    <!-- <form [formGroup]="credentialsForm">
+
+      <ion-item>
+        <ion-label floating>Email</ion-label>
+        <ion-input [formControl]="credentialsForm.controls['email']"
+            type="email"></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input [formControl]="credentialsForm.controls['password']"
+            type="password"></ion-input>
+      </ion-item>      
+    
+      <ion-row>
+        <ion-col text-center>
+          <button ion-button block color="secondary" (click)="onSignIn()">
+            Sign in
+          </button>
+        </ion-col>
+      </ion-row>
+    
+      <ion-row>
+        <ion-col text-center>
+          <button ion-button clear color="light" (click)="onForgotPassword()">
+            Forgot your password?
+          </button>
+        </ion-col>
+      </ion-row>
+    
+    </form> -->
+  </ion-list>
+ 
+</ion-card>
